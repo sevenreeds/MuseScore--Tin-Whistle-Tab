@@ -91,7 +91,7 @@ function run() {
 	cursor.voice = 0;
 	cursor.rewind();  // set cursor to first chord/rest
 
-	font = new QFont("Tin Whistle Tab", 60);
+	font = new QFont("Tin Whistle", 60);
 
 	while (!cursor.eos()) {
 		if (cursor.isChord()) {
