@@ -1,0 +1,32 @@
+Tin Whistle Tablature Plug-In for MuseScore
+
+Included in this zip are the files:
+
+	tinwhistletablature.js
+	README
+
+There is an additional required componant.  The font file is located at:
+
+	http://blaynechastain.com/blog/tin-whistle-tab-font-sibelius-plugin
+
+It was created and is owned by Blayne Chastain.
+
+The "tinwhistletablature.js" script is baised on the Recorder Tab script.
+
+INSTALLATION
+
+	To install copy "tinwhistletablature.js" to your MuseScore Plugin
+	directory.  Next, download the font file from the URL above and
+	install it into your Windows/fonts directory.
+
+Obvious tweaks:
+
+	The most obvious thing you may want to modify is the "font size".
+	This is near line 60 in my version.
+
+		font = new QFont("Tin Whistle Tab", 60);
+
+	Change the 60 to a size that pleases you.  You will want to make
+	adjustments to the Staff-System and possibly Staff spacing values to
+	accommodate the font.
+
